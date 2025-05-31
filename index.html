@@ -112,395 +112,442 @@
 
     <script>
       const allQuestions = [
-  {
-    question: "The Expectancy-Value Model suggests individuals are motivated to:",
-    options: [
-      "Balance with environment",
-      "Maximize gains and minimize losses",
-      "Minimize gains and maximize losses",
-      "Rely only social networks",
-    ],
-    correctIndex: 1,
-  },
-  {
-    question: "Rotter's Social Learning Theory emphasizes:",
-    options: [
-      "The way people explain events",
-      "Expectation of reinforcement and outcome value",
-      "Changes in socail ecology",
-      "Balance with environment",
-    ],
-    correctIndex: 1,
-  },
-  {
-    question: "Fishbein's Theory of Reasoned Action focuses on:",
-    options: [
-      "Reinforcement expectations",
-      "Behavior guided by intention and subjective norms",
-      "The way people explain past events",
-      "Recovery is bounded to health perceptions",
-    ],
-    correctIndex: 1,
-  },
-  {
-    question: "What The Health Belief Model includes:",
-    options: [
-      "Perceived susceptibility",
-      "Perceived seriousness",
-      "Cues to action",
-      "All of the above",
-    ],
-    correctIndex: 3,
-  },
-  {
-    question: "A patient who takes medication because they believe it will prevent complications demonstrates:",
-    options: [
-      "Health Belief Model",
-      "Naturalistic Model",
-      "Social Network Theory",
-      "Attribution Model",
-    ],
-    correctIndex: 0,
-  },
-  {
-    question: "The Attribution Model is primarily concerned with:",
-    options: [
-      "Future health predictions",
-      "How people explain past events",
-      "Social network support",
-      "Reiforcement expectations",
-    ],
-    correctIndex: 1,
-  },
-  {
-    question: "If a patient believes their illness is caused by bad luck, this reflects:",
-    options: [
-      "Health Perception Approach",
-      "Attribution Model",
-      "Social Learning Theory",
-      "Naturalistic Model",
-    ],
-    correctIndex: 1,
-  },
-  {
-    question: "The Health Perception Approach emphasizes:",
-    options: [
-      "Only laboratory results matter",
-      "Patient's understanding equals physical status in importance",
-      "Doctors should ignore patient beliefs",
-      "Social network support",
-    ],
-    correctIndex: 1,
-  },
-  {
-    question: "Characteristics of social networks include:",
-    options: [
-      "Size and density",
-      "Blood type and height",
-      "Political affiliation",
-      "Favorite foods",
-    ],
-    correctIndex: 0,
-  },
-  {
-    question: "Emotional support includes:",
-    options: [
-      "Provide time and money",
-      "Listening and showing concern",
-      "Providing suggestions",
-      "Providing feedback",
-    ],
-    correctIndex: 1,
-  },
-  // {
-  //   question: "The Naturalistic Model views illness as resulting from:",
-  //   options: [
-  //     "Punishment from gods",
-  //     "Imbalance with environment",
-  //     "Poor government policies",
-  //     "Lack of education",
-  //   ],
-  //   correctIndex: 1,
-  // },
-  {
-    question: 'In the Health Belief Model, "cues to action" can be:',
-    options: [
-      "Only internal symptoms",
-      "Only external messages",
-      "Both internal and external",
-      "Only financial incentives",
-    ],
-    correctIndex: 2,
-  },
-  // {
-  //   question: "Which is NOT part of Fishbein's Theory?",
-  //   options: [
-  //     "Attitudes toward behavior",
-  //     "Subjective norms",
-  //     "Astrological compatibility",
-  //     "Behavioral intention",
-  //   ],
-  //   correctIndex: 2,
-  // },
-  // {
-  //   question: 'A patient\'s belief that "my family thinks I should exercise" reflects:',
-  //   options: [
-  //     "Subjective norms in Fishbein's Theory",
-  //     "Naturalistic balance",
-  //     "Biological determinism",
-  //     "Random chance",
-  //   ],
-  //   correctIndex: 0,
-  // },
-  {
-    question: 'The statement "I\'m taking medicine because I might get worse" aligns with:',
-    options: [
-      "Health Belief Model",
-      "Attribution Model",
-      "Social Network Model",
-      "Naturalistic Model",
-    ],
-    correctIndex: 0,
-  },
-  {
-    question: 'Which model would explain illness as "disrupted harmony with nature"?',
-    options: [
-      "Naturalistic Model",
-      "Health Belief Model",
-      "Social Learning Theory",
-      "Attribution Model",
-    ],
-    correctIndex: 0,
-  },
-  {
-    question: "Providing advice about treatment options is:",
-    options: [
-      "Instrumental support",
-      "Emotional support",
-      "Informational support",
-      "Appraisal support",
-    ],
-    correctIndex: 2,
-  },
-  {
-    question: 'The statement "I got sick because I worked too hard" reflects:',
-    options: [
-      "Attribution Model",
-      "Health Belief Model",
-      "Social Network Model",
-      "Naturalistic Model",
-    ],
-    correctIndex: 0,
-  },
-  {
-    question: "Which is a structural characteristic of social networks?",
-    options: [
-      "Reciprocity",
-      "Size",
-      "Intensity",
-      "Durability",
-    ],
-    correctIndex: 1,
-  },
-  // {
-  //   question: "The Naturalistic Model would recommend treatment through:",
-  //   options: [
-  //     "Restoring environmental balance",
-  //     "Prayer only",
-  //     "Ignoring symptoms",
-  //     "Strict medication schedules",
-  //   ],
-  //   correctIndex: 0,
-  // },
-  {
-    question: "A patient who delays returning to work despite medical clearance likely reflects:",
-    options: ["Health Perception Approach", "Social Learning Theory", "Health Belief Model", "Naturalistic Model"],
-    correctIndex: 0
-  },
-  {
-    question: "Which model focuses on how network members know each other?",
-    options: ["Social Network Theory", "Attribution Model", "Health Belief Model", "Naturalistic Model"],
-    correctIndex: 0
-  },
-  {
-    question: "\"My church group helps me cope\" demonstrates:",
-    options: ["Social Network support", "Health Belief Model", "Attribution Model", "Fishbein's Theory"],
-    correctIndex: 0
-  },
-  {
-    question: "The Health Belief Model was developed specifically for:",
-    options: ["The way people explain events", "Health contexts", "Importance of socail environment", "Educational systems"],
-    correctIndex: 1
-  },
-  {
-    question: "Which is NOT a type of social support?",
-    options: ["Emotional", "Instrumental", "Financial", "Appraisal"],
-    correctIndex: 2
-  },
-  {
-    question: "Which social network characteristic refers to how long a relationship lasts?",
-    options: ["Dispersion", "Durability", "Reciprocity", "Density"],
-    correctIndex: 1
-  },
-  {
-    question: "Which of the following BEST defines dispersion as an interactional characteristic of social networks?",
-    options: ["Mutual exchange of support between members", "Length of time a relationship has existed", "Ease of contact between members", "Frequency of interactions"],
-    correctIndex: 2
-  },
-  {
-    question: "Which is NOT a functional characteristic of social networks?",
-    options: ["Maintaining social identity", "Dispersion", "Providing social support", "Connecting to resources"],
-    correctIndex: 1
-  },
-  {
-    question: "A patient who says \"I feel better when in nature\" aligns with:",
-    options: ["Naturalistic Model", "Attribution Model", "Social Learning Theory", "Health Belief Model"],
-    correctIndex: 0
-  },
-  {
-    question: "The statement \"My illness was caused by stress\" reflects:",
-    options: ["Attribution Model", "Health Perception Approach", "Social Network Theory", "Fishbein's Theory"],
-    correctIndex: 0
-  },
-  {
-    question: "Which model emphasizes mutual sharing in relationships?",
-    options: ["Social Network Theory", "Health Belief Model", "Naturalistic Model", "Attribution Model"],
-    correctIndex: 0
-  },
-  {
-    question: "In the Health Belief Model, perceived seriousness refers to:",
-    options: ["How severe one believes an illness could be", "Possibility of getting the disease", "Potential benefit and cost", "All of the above"],
-    correctIndex: 3
-  },
-  {
-    question: "The Naturalistic Model views health as:",
-    options: ["State of harmony with environment", "Absence of symptoms only", "Perfect medical test results", "Wealth and prosperity"],
-    correctIndex: 0
-  },
-  {
-    question: "Which model would explain \"I exercise because my spouse values fitness\"?",
-    options: ["Fishbein's Theory", "Health Belief Model", "Naturalistic Model", "Attribution Model"],
-    correctIndex: 0
-  },
-  {
-    question: "A patient's belief that \"I won't recover because my condition is severe\" reflects:",
-    options: ["Health Perception Approach", "Social Learning Theory", "Naturalistic Model", "Health Belief Model"],
-    correctIndex: 0
-  },
-  {
-    question: "Providing feedback about coping strategies is:",
-    options: ["Appraisal support", "Emotional support", "Instrumental support", "Informational support"],
-    correctIndex: 0
-  },
-  {
-    question: "The statement \"I take vitamins to avoid getting sick\" aligns with:",
-    options: ["Health Belief Model", "Attribution Model", "Social Network Theory", "Naturalistic Model"],
-    correctIndex: 0
-  },
-  {
-    question: "Which model focuses on explaining illness causes after they occur?",
-    options: ["Attribution Model", "Health Belief Model", "Social Learning Theory", "Fishbein's Theory"],
-    correctIndex: 0
-  },
+        {
+          question:
+            "The Expectancy-Value Model suggests individuals are motivated to:",
+          options: [
+            "Balance with environment",
+            "Maximize gains and minimize losses",
+            "Minimize gains and maximize losses",
+            "Rely only social networks",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "Rotter's Social Learning Theory emphasizes:",
+          options: [
+            "The way people explain events",
+            "Expectation of reinforcement and outcome value",
+            "Changes in socail ecology",
+            "Balance with environment",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "Fishbein's Theory of Reasoned Action focuses on:",
+          options: [
+            "Reinforcement expectations",
+            "Behavior guided by intention and subjective norms",
+            "The way people explain past events",
+            "Recovery is bounded to health perceptions",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "What The Health Belief Model includes:",
+          options: [
+            "Perceived susceptibility",
+            "Perceived seriousness",
+            "Cues to action",
+            "All of the above",
+          ],
+          correctIndex: 3,
+        },
+        {
+          question:
+            "A patient who takes medication because they believe it will prevent complications demonstrates:",
+          options: [
+            "Health Belief Model",
+            "Naturalistic Model",
+            "Social Network Theory",
+            "Attribution Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "The Attribution Model is primarily concerned with:",
+          options: [
+            "Future health predictions",
+            "How people explain past events",
+            "Social network support",
+            "Reiforcement expectations",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "If a patient believes their illness is caused by bad luck, this reflects:",
+          options: [
+            "Health Perception Approach",
+            "Attribution Model",
+            "Social Learning Theory",
+            "Naturalistic Model",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "The Health Perception Approach emphasizes:",
+          options: [
+            "Only laboratory results matter",
+            "Patient's understanding equals physical status in importance",
+            "Doctors should ignore patient beliefs",
+            "Social network support",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "Characteristics of social networks include:",
+          options: [
+            "Size and density",
+            "Blood type and height",
+            "Political affiliation",
+            "Favorite foods",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "Emotional support includes:",
+          options: [
+            "Provide time and money",
+            "Listening and showing concern",
+            "Providing suggestions",
+            "Providing feedback",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: 'In the Health Belief Model, "cues to action" can be:',
+          options: [
+            "Only internal symptoms",
+            "Only external messages",
+            "Both internal and external",
+            "Only financial incentives",
+          ],
+          correctIndex: 2,
+        },
+        {
+          question:
+            'The statement "I\'m taking medicine because I might get worse" aligns with:',
+          options: [
+            "Health Belief Model",
+            "Attribution Model",
+            "Social Network Model",
+            "Naturalistic Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            'Which model would explain illness as "disrupted harmony with nature"?',
+          options: [
+            "Naturalistic Model",
+            "Health Belief Model",
+            "Social Learning Theory",
+            "Attribution Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "Providing advice about treatment options is:",
+          options: [
+            "Instrumental support",
+            "Emotional support",
+            "Informational support",
+            "Appraisal support",
+          ],
+          correctIndex: 2,
+        },
+        {
+          question:
+            'The statement "I got sick because I worked too hard" reflects:',
+          options: [
+            "Attribution Model",
+            "Health Belief Model",
+            "Social Network Model",
+            "Naturalistic Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "Which is a structural characteristic of social networks?",
+          options: ["Reciprocity", "Size", "Intensity", "Durability"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "A patient who delays returning to work despite medical clearance likely reflects:",
+          options: [
+            "Health Perception Approach",
+            "Social Learning Theory",
+            "Health Belief Model",
+            "Naturalistic Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "Which model focuses on how network members know each other?",
+          options: [
+            "Social Network Theory",
+            "Attribution Model",
+            "Health Belief Model",
+            "Naturalistic Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: '"My church group helps me cope" demonstrates:',
+          options: [
+            "Social Network support",
+            "Health Belief Model",
+            "Attribution Model",
+            "Fishbein's Theory",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "The Health Belief Model was developed specifically for:",
+          options: [
+            "The way people explain events",
+            "Health contexts",
+            "Importance of socail environment",
+            "Educational systems",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question: "Which is NOT a type of social support?",
+          options: ["Emotional", "Instrumental", "Financial", "Appraisal"],
+          correctIndex: 2,
+        },
+        {
+          question:
+            "Which social network characteristic refers to how long a relationship lasts?",
+          options: ["Dispersion", "Durability", "Reciprocity", "Density"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "Which of the following BEST defines dispersion as an interactional characteristic of social networks?",
+          options: [
+            "Mutual exchange of support between members",
+            "Length of time a relationship has existed",
+            "Ease of contact between members",
+            "Frequency of interactions",
+          ],
+          correctIndex: 2,
+        },
+        {
+          question:
+            "Which is NOT a functional characteristic of social networks?",
+          options: [
+            "Maintaining social identity",
+            "Dispersion",
+            "Providing social support",
+            "Connecting to resources",
+          ],
+          correctIndex: 1,
+        },
+        {
+          question:
+            'A patient who says "I feel better when in nature" aligns with:',
+          options: [
+            "Naturalistic Model",
+            "Attribution Model",
+            "Social Learning Theory",
+            "Health Belief Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: 'The statement "My illness was caused by stress" reflects:',
+          options: [
+            "Attribution Model",
+            "Health Perception Approach",
+            "Social Network Theory",
+            "Fishbein's Theory",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "Which model emphasizes mutual sharing in relationships?",
+          options: [
+            "Social Network Theory",
+            "Health Belief Model",
+            "Naturalistic Model",
+            "Attribution Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "In the Health Belief Model, perceived seriousness refers to:",
+          options: [
+            "How severe one believes an illness could be",
+            "Possibility of getting the disease",
+            "Potential benefit and cost",
+            "All of the above",
+          ],
+          correctIndex: 3,
+        },
+        {
+          question: "The Naturalistic Model views health as:",
+          options: [
+            "State of harmony with environment",
+            "Absence of symptoms only",
+            "Perfect medical test results",
+            "Wealth and prosperity",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            'Which model would explain "I exercise because my spouse values fitness"?',
+          options: [
+            "Fishbein's Theory",
+            "Health Belief Model",
+            "Naturalistic Model",
+            "Attribution Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "A patient's belief that \"I won't recover because my condition is severe\" reflects:",
+          options: [
+            "Health Perception Approach",
+            "Social Learning Theory",
+            "Naturalistic Model",
+            "Health Belief Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question: "Providing feedback about coping strategies is:",
+          options: [
+            "Appraisal support",
+            "Emotional support",
+            "Instrumental support",
+            "Informational support",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            'The statement "I take vitamins to avoid getting sick" aligns with:',
+          options: [
+            "Health Belief Model",
+            "Attribution Model",
+            "Social Network Theory",
+            "Naturalistic Model",
+          ],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "Which model focuses on explaining illness causes after they occur?",
+          options: [
+            "Attribution Model",
+            "Health Belief Model",
+            "Social Learning Theory",
+            "Fishbein's Theory",
+          ],
+          correctIndex: 0,
+        },
 
-  // True/False Questions
-  {
-    question: "The Expectancy-Value Model includes the Health Belief Model.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  // {
-  //   question: "Fishbein's Theory of Reasoned Action applies to involuntary behaviors.",
-  //   options: ["True", "False"],
-  //   correctIndex: 1
-  // },
-  {
-    question: "The Attribution Model predicts future health behaviors and outcomes.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Health Perception Approach considers patient beliefs as important as physical status.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  {
-    question: "Social networks only include family members.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Instrumental support includes giving advice.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  // {
-  //   question: "Naturalistic Model views illness as punishment from gods.",
-  //   options: ["True", "False"],
-  //   correctIndex: 1
-  // },
-  {
-    question: "Perceived susceptibility is part of the Health Belief Model.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  {
-    question: "Social Learning Theory ignores reinforcement expectations.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Cues to action in HBM can be internal or external.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  {
-    question: "Recovery depends only on physical factors, not health perceptions.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Social networks can have both kin and non-kin members.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  {
-    question: "The Naturalistic Model prioritizes medication over environmental balance.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Subjective norms are part of Fishbein's Theory.",
-    options: ["True", "False"],
-    correctIndex: 0
-  },
-  {
-    question: "The Health Belief Model was developed to explain economic behavior.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "The Health Belief Model ignores the role of perceived benefits in health behaviors.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  // {
-  //   question: "According to the Naturalistic Model, illness can result from supernatural causes.",
-  //   options: ["True", "False"],
-  //   correctIndex: 1
-  // },
-  {
-    question: "Social Network Theory suggests that all network ties must provide support.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-  {
-    question: "Fishbein’s Theory of Reasoned Action assumes behavior is completely involuntary.",
-    options: ["True", "False"],
-    correctIndex: 1
-  },
-];
-
+        // True/False Questions
+        {
+          question:
+            "The Expectancy-Value Model includes the Health Belief Model.",
+          options: ["True", "False"],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "The Attribution Model predicts future health behaviors and outcomes.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "Health Perception Approach considers patient beliefs as important as physical status.",
+          options: ["True", "False"],
+          correctIndex: 0,
+        },
+        {
+          question: "Social networks only include family members.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question: "Instrumental support includes giving advice.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "Perceived susceptibility is part of the Health Belief Model.",
+          options: ["True", "False"],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "Social Learning Theory ignores reinforcement expectations.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question: "Cues to action in HBM can be internal or external.",
+          options: ["True", "False"],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "Recovery depends only on physical factors, not health perceptions.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question: "Social networks can have both kin and non-kin members.",
+          options: ["True", "False"],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "The Naturalistic Model prioritizes medication over environmental balance.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question: "Subjective norms are part of Fishbein's Theory.",
+          options: ["True", "False"],
+          correctIndex: 0,
+        },
+        {
+          question:
+            "The Health Belief Model was developed to explain economic behavior.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "The Health Belief Model ignores the role of perceived benefits in health behaviors.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "Social Network Theory suggests that all network ties must provide support.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+        {
+          question:
+            "Fishbein’s Theory of Reasoned Action assumes behavior is completely involuntary.",
+          options: ["True", "False"],
+          correctIndex: 1,
+        },
+      ];
 
       let currentQuestionIndex = 0;
       let score = 0;
